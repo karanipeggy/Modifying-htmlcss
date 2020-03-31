@@ -1,0 +1,9 @@
+html, body {
+    background-color: rgb(149, 70, 70);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    margin: 40px;
+    padding: 0px;
+
+}
