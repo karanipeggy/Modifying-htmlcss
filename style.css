@@ -2,8 +2,26 @@ html, body {
     background-color: rgb(149, 70, 70);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p{
-    margin: 40px;
-    padding: 0px;
 
+p, h1 {
+    margin: 20px;
+    padding: 0px;
+}
+
+.sideitems:hover {
+    color: #fc0362
+}
+
+.items {
+    background-color: #271f38;
+}
+
+.sideitem {
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    justify-content: left;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgb(3, 35, 63);
 }
