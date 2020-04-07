@@ -1,27 +1,66 @@
 html, body {
-    background-color: rgb(149, 70, 70);
+    background-color: rgb(219, 189, 189);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
-p, h1 {
-    margin: 20px;
-    padding: 0px;
-}
-
-.sideitems:hover {
-    color: #fc0362
-}
-
-.items {
-    background-color: #271f38;
-}
-
-.sideitem {
+.container {
     display: flex;
-    font-size: 12px;
-    cursor: pointer;
-    justify-content: left;
+}
+
+content {
+    padding: 0px 30px;
+}
+
+.side-menu {
+    width: 500px;
+    height: 100vh;
+    background-color: black;
+    color: #ffffff;
     flex-direction: column;
-    list-style-type: none;
-    background-color: rgb(3, 35, 63);
+    padding-top: 16px;
+}
+
+.side-menu-title {
+    height: 50px;
+    cursor: pointer;
+    padding: 0px 16px;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 8px;
+    display: flex;
+}
+
+.side-menu-title:hover {
+    background-color: rgb(1, 39, 39);
+}
+
+.side-menu-items {
+    margin: unset;
+    padding: unset
+}
+
+.side-menu-item {
+    list-style: none;
+    height: 50px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.side-menu-item:hover {
+    background-color: rgb(1, 39, 39);
+}
+
+.side-menu-item-icon {
+    margin-right: 8px;
+}
+
+.side-menu-item:hover .side-menu-item-icon {
+    color: #a8327b;
+}
+
+.hidden {
+    display: none;
 }

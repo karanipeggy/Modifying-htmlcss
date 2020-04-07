@@ -6,42 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>collapsible navbar</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
 </head>
 
 <body>
 
-    <main>
-        <aside class="sideitems items">
-            <ul class="sideitem">
-                <li>
-                    FIRESHIP
-                    <i class="fas fa-angle-double-right"></i>
-                    <i class="fas fa-angle-double-left"></i>
-                </li>
-                <li>
-                    <i class="fas fa-cat"></i>
+    <main class="container">
+        <aside class="side-menu">
+            <div class="side-menu-title">
+                FIRESHIP
+                <span class="hidden"><i class="fas fa-angle-double-right"></i></span>
+                <span><i class="fas fa-angle-double-left"></i></span>
+            </div>
+            <ul class="side-menu-items">
+
+                <li class="side-menu-item">
+                    <span class="side-menu-item-icon">
+                        <i class="fas fa-cat"></i>
+                    </span>
                     Cats
                 </li>
-                <li>
-                    <i class="fas fa-alien-monster"></i>
+                <li class="side-menu-item">
+                    <span class="side-menu-item-icon">
+                        <i class="fab fa-reddit-alien"></i>
+                    </span>
                     Aliens
                 </li>
-                <li>
-                    <i class="fas fa-globe-europe"></i>
+                <li class="side-menu-item">
+                    <span class="side-menu-item-icon">
+                        <i class="fas fa-globe-europe"></i>
+                    </span>
                     Space
                 </li>
-                <li>
-                    <i class="fas fa-space-shuttle"></i>
+                <li class="side-menu-item">
+                    <span class="side-menu-item-icon">
+                        <i class="fas fa-space-shuttle"></i>
+                    </span>
                     Shuttle
                 </li>
-                <li>
-                    <i class="fas fa-star-and-crescent"></i>
+                <li class="side-menu-item">
+                    <span class="side-menu-item-icon">
+                        <i class="fas fa-star-and-crescent"></i>
+                    </span>
                     Themify
                 </li>
             </ul>
+
         </aside>
-        <section>
+        <section class="content">
             <h1> CSS is Cool</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deleniti veniam, possimus amet sunt corrupti sit,
