@@ -8,8 +8,8 @@ html, body {
     display: flex;
 }
 
-content {
-    padding: 0px 30px;
+.content {
+    padding: 0px 20px;
 }
 
 .side-menu {
@@ -19,16 +19,20 @@ content {
     color: #ffffff;
     flex-direction: column;
     padding-top: 16px;
+    
 }
 
 .side-menu-title {
     height: 50px;
     cursor: pointer;
-    padding: 0px 16px;
+    padding: 0px 8px;
     align-items: center;
     font-size: 12px;
-    margin-right: 8px;
     display: flex;
+    
+}
+.side-menu-title ,i{
+    margin-left: 8px;
 }
 
 .side-menu-title:hover {
@@ -37,9 +41,12 @@ content {
 
 .side-menu-items {
     margin: unset;
-    padding: unset
+    padding: unset;
+    
 }
-
+.side-menu-items:hover {
+    place-items: reveal;
+}
 .side-menu-item {
     list-style: none;
     height: 50px;
@@ -64,3 +71,15 @@ content {
 .hidden {
     display: none;
 }
+
+@media screen and (max-width:450px) {
+    .side-menu {
+        padding-top: 15px
+    }
+}
+
+.fa-star-and-crescent {
+    position: absolute;
+    left:10000;
+    bottom:3000;
+    }
